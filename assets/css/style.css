@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'PoppinsReg';
+    src: url('assets/font/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('assets/font/Poppins-Bold.ttf') format('truetype');
+}
+
+:root {
+    --dark-blue: #002B3D;   /* Dark Blue */
+    --teal: #287E92;        /* Teal */
+    --colombia-blue: #B8D8F5;  /* Light Blue */
+    --lavender-web: #E5E9F7;  /* Soft Grayish Blue */
+    --white: #FFFFFF;
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* reset style */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* set font with custom font */
+    font-family: 'PoppinsReg', sans-serif;
+    min-height: 100vh;
+    background-color: var(--lavender-web);
+    color: var(--dark-blue);
+}
+
+hr {
+    color: var(--colombia-blue);
+    border: 2px dashed
+}
+/* container */
+.container-fluid {
+    padding: 20px;
+}
+
+.container {
+    padding: 15px;
+    margin: 0.5rem;
+    background-color: var(--white);
+}
+
+/* navbar styling */
+nav {
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+    font-family: 'PoppinsBold', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav ul li a:hover {
+    color: var(--colombia-blue);
+}
