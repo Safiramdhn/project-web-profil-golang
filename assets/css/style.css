@@ -111,3 +111,34 @@ nav ul li a:hover {
     background-color: var(--dark-blue);
     color: var(--colombia-blue);
 }
+
+.projects p {
+    font-size: small;
+    color: gray;
+}
+
+.projects p a {
+    text-decoration: none;
+    color: var(--teal);
+}
+
+.projects p a:hover {
+    text-decoration: underline;
+}
+
+.projects .description {
+    color: var(--dark-blue);
+}
+
+.projects .tech-stack {
+    background-color: var(--teal);
+    color: var(--white);
+    padding: 5px;
+    width: max-content;
+}
+
+.projects article {
+    border: 1px solid var(--colombia-blue);
+    margin: 5px 0;
+    padding: 0 5px;
+}
