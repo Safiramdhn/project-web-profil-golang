@@ -41,7 +41,7 @@ header {
 /* container */
 .container {
     padding: 15px;
-    margin: 0.5rem;
+    margin: 1rem;
     background-color: var(--white);
 }
 
@@ -51,7 +51,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem;
 }
 
 nav ul {
@@ -108,6 +108,11 @@ nav ul li a:hover {
     color: gray;
 }
 
+.projects  h2{
+    text-align: center;
+}
+
+
 .projects p a {
     text-decoration: none;
     color: var(--teal);
@@ -131,18 +136,20 @@ nav ul li a:hover {
 .projects article {
     border: 1px solid var(--colombia-blue);
     margin: 5px 0;
-    padding: 5px 10px;
+    padding: 5px 1rem;
 }
 
-/* .contact {
+.contact {
     display: flex;
-} */
+    justify-content: space-around;
+}
 
 .contact .email-form {
     border: 1px solid var(--black);
     border-radius: 4px;
     margin: 0 20px;
-    padding: 10px;
+    padding: 20px;
+    width: 500px;
 }
 
 .email-form p {
@@ -213,7 +220,7 @@ nav ul li a:hover {
 }
 
 .social-media .fa-brands {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 footer {
@@ -231,4 +238,12 @@ footer p {
 .experiences p {
     font-size: small;
     color: gray;
+}
+
+.experiences h2{
+    text-align: center;
+}
+
+.experiences article {
+    padding: 0 1rem;
 }
