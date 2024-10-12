@@ -227,3 +227,8 @@ footer p {
     padding: 10px;
     font-size: 12px;
 }
+
+.experiences p {
+    font-size: small;
+    color: gray;
+}
