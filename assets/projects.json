@@ -3,28 +3,28 @@
         {
             "id": 1,
             "name": "Zettacamp Mini Project",
-            "description": "",
-            "start_date": "dd/mm/yyyy",
-            "end_date": "dd/mm/yyyy",
-            "tech_stack": "",
-            "link": ""
+            "description": "This project is a form of assignment as an assessment related to understanding the material (Node.js, MongoDB, Graphql) from the Zettacamp bootcamp.",
+            "start_date": "Nov 2022",
+            "end_date": "Dec 2022",
+            "tech_stack": "Node.js, Express.js, GraphQL, MongoDB",
+            "link": "https://github.com/zettacamp-dewi-ramadhani/mini_project_safira"
         },
         {
             "id": 2,
             "name": "Restaurant Management Project",
-            "description": "",
-            "start_date": "dd/mm/yyyy",
-            "end_date": "dd/mm/yyyy",
-            "tech_stack": "",
-            "link": ""
+            "description": "This project idea is based on zettacamp batch #3 mini project but has some different points. This project provides a restaurant management system to streamline raw material stock management and menu accuracy.",
+            "start_date": "Oct 2023",
+            "end_date": "Jun 2024",
+            "tech_stack": "Node.js, Express.js, GraphQL, MongoDB",
+            "link": "https://github.com/Safiramdhn/restaurant"
         },
         {
             "id": 3,
             "name": "Image Processing App Project",
-            "description": "",
-            "start_date": "dd/mm/yyyy",
-            "end_date": "dd/mm/yyyy",
-            "tech_stack": "",
+            "description": "This project about image processing app that allow you convert, compress, and resize your image",
+            "start_date": "Jul 2024",
+            "end_date": "present",
+            "tech_stack": "Go, Go Fiber, REST API",
             "link": ""
         }
     ]
