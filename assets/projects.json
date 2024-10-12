@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Zettacamp Mini Project",
+            "description": "",
+            "start_date": "dd/mm/yyyy",
+            "end_date": "dd/mm/yyyy",
+            "tech_stack": "",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "name": "Restaurant Management Project",
+            "description": "",
+            "start_date": "dd/mm/yyyy",
+            "end_date": "dd/mm/yyyy",
+            "tech_stack": "",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "name": "Image Processing App Project",
+            "description": "",
+            "start_date": "dd/mm/yyyy",
+            "end_date": "dd/mm/yyyy",
+            "tech_stack": "",
+            "link": ""
+        }
+    ]
+}
